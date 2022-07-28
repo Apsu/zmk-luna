@@ -45,9 +45,9 @@
         base_layer {
             label = "Luna Base Layer";
             bindings = <
-                           &kp W      &kp F      &kp P                                      &kp L       &kp U      &kp Y
-                &hm LGUI R &hm LALT S &hm LCTL T &hm LSHFT H  &kp B              &kp J      &hm RSHFT N &hm RCTL A &hm RALT I &hm RGUI O
-                &kp V      &kp C      &kp G      &kp D        &kp K              &kp X      &kp M       &kp COMMA  &kp DOT    &kp SQT
+                &kp V      &kp W      &kp F      &kp P        &kp B              &kp X      &kp L       &kp U      &kp Y      &kp SQT
+                &hm LGUI R &hm LALT S &hm LCTL T &hm LSHFT H  &kp K              &kp J      &hm RSHFT N &hm RCTL A &hm RALT I &hm RGUI O
+                           &kp C      &kp G      &kp D                                      &kp M       &kp COMMA  &kp DOT
                                                  &lt misc ESC &lt nav SPACE      &lt num E  &lt func BSPC
             >;
         };
@@ -55,9 +55,9 @@
         nav_layer {
             label = "Navigation and Shortcuts";
             bindings = <
-                              &kp LA(DOWN)     &kp LG(LS(LBKT)) &kp LG(LS(RBKT))                           &kp HOME         &kp UP     &kp END
+               &kp LA(UP)     &kp LA(DOWN)     &kp LG(LS(LBKT)) &kp LG(LS(RBKT)) &kp LNLCK      &kp C_PREV &kp HOME         &kp UP     &kp END      &kp C_VOL_UP
                &kp LGUI       &kp LALT         &kp LCTL         &kp LSHIFT       &caps_word     &kp DEL    &kp LEFT         &kp DOWN   &kp RIGHT    &kp PG_DN
-               &kp LA(LS(UP)) &kp LA(LS(DOWN)) &kp LS(PG_UP)    &kp LS(PG_DN)    &kp LNLCK      &kp C_PREV &kp C_PLAY_PAUSE &kp C_NEXT &kp C_VOL_DN &kp C_VOL_UP
+                              &kp LA(LS(DOWN)) &kp LS(PG_UP)    &kp LS(PG_DN)                              &kp C_PLAY_PAUSE &kp C_NEXT &kp C_VOL_DN
                                                                 &trans           &trans         &kp RET    &trans
             >;
         };
@@ -65,9 +65,9 @@
         num_layer {
             label = "Numbers and Symbols";
             bindings = <
-                           &kp AT      &kp HASH    &kp DLLR                              &kp AMPS     &kp ASTRK   &kp LPAR
+               &kp LBKT    &kp AT      &kp HASH    &kp DLLR     &kp GRAVE      &kp BSLH  &kp AMPS     &kp ASTRK   &kp LPAR    &trans
                &hm LGUI N1 &hm LALT N2 &hm LCTL N3 &hm LSHFT N4 &kp N5         &kp N6    &hm RSHFT N7 &hm RCTL N8 &hm RALT N9 &hm RGUI N0
-               &kp LBKT    &kp RBKT    &kp EQUAL   &kp MINUS    &kp GRAVE      &kp BSLH  &trans       &trans      &trans      &trans
+                           &kp RBKT    &kp EQUAL   &kp MINUS                             &trans       &trans      &trans
                                                    &trans       &kp TAB        &trans    &trans
             >;
         };
@@ -75,10 +75,10 @@
         misc_layer {
             label = "Miscellaneous";
             bindings = <
-                            &trans &trans &trans                                 &out OUT_USB     &out OUT_BLE      &out OUT_TOG
-                &trans      &trans &trans &trans &trans        &bt BT_CLR        &bt BT_SEL 1     &bt BT_SEL 2      &bt BT_SEL 3 &bt BT_SEL 4
-                &trans      &trans &trans &trans &trans        &ext_power EP_TOG &ext_power EP_ON &ext_power EP_OFF &trans       &trans
-                                          &trans &trans        &trans            &trans
+                &trans &trans &trans &trans &trans               &ext_power EP_TOG &out OUT_USB     &out OUT_BLE      &out OUT_TOG &trans
+                &trans &trans &trans &trans &trans &bt BT_CLR    &bt BT_SEL 1      &bt BT_SEL 2     &bt BT_SEL 3      &bt BT_SEL 4
+                       &trans &trans &trans                                        &ext_power EP_ON &ext_power EP_OFF &trans
+                                            &trans &trans        &trans            &trans
             >;
         };
 
@@ -86,9 +86,9 @@
             label = "Function Keys";
 
             bindings = <
-                           &trans      &trans      &trans                          &trans       &trans      &trans
+               &trans      &trans      &trans      &trans       &trans      &trans &trans       &trans      &trans      &trans
                &hm LGUI F1 &hm LALT F2 &hm LCTL F3 &hm LSHFT F4 &kp F5      &kp F6 &hm RSHFT F7 &hm RCTL F8 &hm RALT F9 &hm RGUI F10
-               &trans      &trans      &trans      &kp F11      &trans      &trans &kp F12      &trans      &trans      &trans
+                           &trans      &trans      &kp F11                         &kp F12      &trans      &trans
                                                    &trans       &trans      &trans &trans
             >;
         };
