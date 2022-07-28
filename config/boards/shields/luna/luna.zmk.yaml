@@ -1,0 +1,11 @@
+file_format: "1"
+id: luna
+name: Luna
+type: shield
+url: https://github.com/mindhatch/keyboards
+requires: [pro_micro]
+features:
+  - keys
+siblings:
+  - luna_left
+  - luna_right
