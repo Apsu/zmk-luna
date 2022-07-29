@@ -1,0 +1,12 @@
+compatible = "zmk,combos";
+
+#define COMBO(NAME, BINDINGS, KEYPOS, LAYERS, MS) \
+  combo_##NAME { \
+    bindings = <BINDINGS>; \
+    key-positions = <KEYPOS>; \
+    layers = <LAYERS>; \
+    timeout-ms = <MS>; \
+  };
+
+COMBO(z, &kp Z, 2 3, base, 20)
+COMBO(v, &kp Q, 17 18, base, 20)
