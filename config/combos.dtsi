@@ -9,4 +9,4 @@ compatible = "zmk,combos";
   };
 
 COMBO(z, &kp Z, 2 3, base, 20)
-COMBO(v, &kp Q, 17 18, base, 20)
+COMBO(q, &kp Q, 6 7, base, 20)
