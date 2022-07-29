@@ -59,19 +59,19 @@
         nav_layer {
             label = "Navigation and Shortcuts";
             bindings = <
-               &kp LA(UP)     &kp LA(DOWN)     &kp LG(LS(LBKT)) &kp LG(LS(RBKT)) &trans         &kp C_PREV &kp HOME     &kp UP     &kp END      &kp PG_UP
-               &kp LGUI       &kp LALT         &kp LCTL         &kp LSHIFT       &caps_word     &kp DEL    &kp LEFT     &kp DOWN   &kp RIGHT    &kp PG_DN
-                              &trans           &trans           &trans                                     &trans       &trans     &trans
-                                                                &trans           &trans         &kp RET    &trans
+               &kp LA(UP)     &kp LA(DOWN)     &kp LG(LS(LBKT)) &kp LG(LS(RBKT)) &trans         &kp INS &kp HOME     &kp UP     &kp END      &kp PG_UP
+               &kp LGUI       &kp LALT         &kp LCTL         &kp LSHIFT       &caps_word     &kp DEL &kp LEFT     &kp DOWN   &kp RIGHT    &kp PG_DN
+                              &trans           &kp LA(LS(UP))   &kp LA(LS(DOWN))                        &trans       &trans     &trans
+                                                                &trans           &trans         &kp RET &trans
             >;
         };
 
         num_layer {
             label = "Numbers and Symbols";
             bindings = <
-               &kp FSLH    &trans      &trans      &trans       &trans         &kp MINUS &kp EQUAL    &kp LBKT    &kp RBKT    &kp SEMI
+               &kp MINUS   &kp EQUAL   &kp LBKT    &kp RBKT     &kp SEMI       &trans    &trans       &trans      &trans      &trans
                &hm LGUI N1 &hm LALT N2 &hm LCTL N3 &hm LSHFT N4 &kp N5         &kp N6    &hm RSHFT N7 &hm RCTL N8 &hm RALT N9 &hm RGUI N0
-                           &trans      &trans      &trans                                &trans       &trans      &trans
+                           &kp GRAVE   &kp BSLH    &kp FSLH                              &trans       &trans      &trans
                                                    &trans       &kp TAB        &trans    &trans
             >;
         };
@@ -79,10 +79,10 @@
         misc_layer {
             label = "Miscellaneous";
             bindings = <
-                &trans &trans &trans &trans &trans        &trans        &out OUT_USB     &out OUT_BLE      &out OUT_TOG      &bootloader
-                &trans &trans &trans &trans &trans        &bt BT_CLR    &bt BT_SEL 1     &bt BT_SEL 2      &bt BT_SEL 3      &bt BT_SEL 4
-                       &trans &trans &trans                             &ext_power EP_ON &ext_power EP_OFF &ext_power EP_TOG
-                                     &trans &trans        &trans        &trans
+                &bootloader &trans &trans &trans &trans        &trans        &out OUT_USB     &out OUT_BLE      &out OUT_TOG      &trans
+                &trans      &trans &trans &trans &trans        &bt BT_CLR    &bt BT_SEL 1     &bt BT_SEL 2      &bt BT_SEL 3      &bt BT_SEL 4
+                            &trans &trans &trans                             &ext_power EP_ON &ext_power EP_OFF &ext_power EP_TOG
+                                          &trans &trans        &trans        &trans
             >;
         };
 
@@ -90,7 +90,7 @@
             label = "Function Keys";
 
             bindings = <
-               &bootloader &trans      &trans      &trans       &trans      &trans &trans       &trans      &trans      &trans
+               &trans      &trans      &trans      &trans       &trans      &trans &trans       &trans      &trans      &bootloader
                &hm LGUI F1 &hm LALT F2 &hm LCTL F3 &hm LSHFT F4 &kp F5      &kp F6 &hm RSHFT F7 &hm RCTL F8 &hm RALT F9 &hm RGUI F10
                            &trans      &trans      &kp F11                         &kp F12      &trans      &trans
                                                    &trans       &trans      &trans &trans
