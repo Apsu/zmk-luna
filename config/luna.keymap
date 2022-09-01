@@ -32,7 +32,7 @@
     };
 
     behaviors {
-        hm: homerow_mods {
+        hm: homerow_mod {
             compatible = "zmk,behavior-hold-tap";
             label = "HOMEROW_MODS";
             #binding-cells = <2>;
@@ -58,10 +58,10 @@
         base_layer {
             label = "Luna Base Layer";
             bindings = <
-                &kp V      &kp F      &kp Y      &kp D        &kp B              &kp X     &kp L       &kp U      &kp J      &kp SQT
-                &hm LGUI R &hm LALT S &hm LCTL T &hs LSHFT H  &kp K              &kp W     &hs RSHFT N &hm RCTL A &hm RALT I &hm RGUI O
-                           &kp C      &kp G      &kp P                                     &kp M       &kp COMMA  &kp DOT
-                                                 &lt misc ESC &lt nav SPACE      &lt num E &lt func BSPC
+                &kp V      &kp W      &kp F      &kp P        &kp B           &kp J     &kp L       &kp U      &kp Y      &kp SQT
+                &hm LGUI R &hm LALT S &hm LCTL T &hs LSHFT H  &kp K           &kp X     &hs RSHFT N &hm RCTL A &hm RALT I &hm RGUI O
+                           &kp C      &kp G      &kp D                                  &kp M       &kp COMMA  &kp DOT
+                                                 &lt misc ESC &lt nav SPACE   &lt num E &lt func BSPC
             >;
         };
 
@@ -71,7 +71,7 @@
                &kp LA(UP)     &kp LA(DOWN)     &kp LG(LS(LBKT)) &kp LG(LS(RBKT)) &trans         &kp INS &kp HOME     &kp UP     &kp END      &kp PG_UP
                &kp LGUI       &kp LALT         &kp LCTL         &kp LSHIFT       &caps_word     &kp DEL &kp LEFT     &kp DOWN   &kp RIGHT    &kp PG_DN
                               &trans           &kp LA(LS(UP))   &kp LA(LS(DOWN))                        &kp C_PREV   &kp C_PLAY  &kp C_NEXT
-                                                                &trans           &trans         &kp RET &trans
+                                                                &trans           &trans         &kp RET &kp BSPC
             >;
         };
 
