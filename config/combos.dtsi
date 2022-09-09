@@ -1,5 +1,3 @@
-compatible = "zmk,combos";
-
 #define COMBO(NAME, BINDINGS, KEYPOS, LAYERS, MS) \
   combo_##NAME { \
     bindings = <BINDINGS>; \
@@ -11,10 +9,11 @@ compatible = "zmk,combos";
 
 / {
   combos {
-    #include "combos.dtsi"
+    compatible = "zmk,combos";
 
     COMBO(q, &kp Q, 2 3, base, 20)
     COMBO(z, &kp Z, 6 7, base, 20)
     COMBO(shiftl, &sk LSHFT, 12 13, base, 20)
     COMBO(shiftr, &sk LSHFT, 16 17, base, 20)
   };
+};
