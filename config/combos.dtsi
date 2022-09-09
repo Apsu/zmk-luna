@@ -4,7 +4,6 @@
     key-positions = <KEYPOS>; \
     layers = <LAYERS>; \
     timeout-ms = <MS>; \
-    global-quick-tap-ms = <80>; \
   };
 
 / {
