@@ -20,6 +20,10 @@
     continue-list = <UNDERSCORE MINUS>;
 };
 
+&sk {
+  quick-release;
+};
+
 &lt {
     tapping-term-ms = <250>;
     quick_tap_ms = <250>;
