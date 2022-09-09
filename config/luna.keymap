@@ -53,7 +53,7 @@
             bindings = <
                 &kp J      &kp W      &kp F      &kp P        &kp B           &kp K     &kp L       &kp U      &kp Y      &kp X
                 &hm LGUI A &hm LALT R &hm LCTL S &hm LSHFT T  &kp G           &kp M     &hm RSHFT N &hm RCTL E &hm RALT I &hm RGUI O
-                           &kp V      &kp C      &kp D                                  &kp M       &kp COMMA  &kp DOT
+                           &kp V      &kp C      &kp D                                  &kp H       &kp COMMA  &kp DOT
                                                  &lt misc ESC &lt nav SPACE   &lt num BSPC &lt func SQT
             >;
         };
