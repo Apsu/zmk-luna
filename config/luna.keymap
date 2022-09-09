@@ -9,7 +9,6 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/ext_power.h>
 #include <dt-bindings/zmk/outputs.h>
-#include "combos.dtsi"
 
 #define base 0
 #define nav  1
@@ -28,6 +27,8 @@
 };
 
 / {
+    #include "combos.dtsi"
+
     behaviors {
         hm: homerow_mod {
             compatible = "zmk,behavior-hold-tap";
