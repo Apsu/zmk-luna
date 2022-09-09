@@ -6,7 +6,15 @@ compatible = "zmk,combos";
     key-positions = <KEYPOS>; \
     layers = <LAYERS>; \
     timeout-ms = <MS>; \
+    global-quick-tap-ms = <80>; \
   };
 
-COMBO(q, &kp Q, 2 3, base, 20)
-COMBO(z, &kp Z, 6 7, base, 20)
+/ {
+  combos {
+    #include "combos.dtsi"
+
+    COMBO(q, &kp Q, 2 3, base, 20)
+    COMBO(z, &kp Z, 6 7, base, 20)
+    COMBO(shiftl, &sk LSHFT, 12 13, base, 20)
+    COMBO(shiftr, &sk LSHFT, 16 17, base, 20)
+  };
