@@ -11,6 +11,4 @@ combos {
 
   COMBO(q, &kp Q, 2 3, base, 50)
   COMBO(z, &kp Z, 6 7, base, 50)
-  COMBO(shiftl, &sk LSHFT, 12 13, base, 50)
-  COMBO(shiftr, &sk LSHFT, 16 17, base, 50)
 };
