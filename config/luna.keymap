@@ -54,7 +54,7 @@
                 &kp V      &kp G      &kp D      &kp F        &kp B           &kp X        &kp L       &kp U      &kp O      &kp Y
                 &hm LGUI R &hm LALT S &hm LCTL T &hm LSHFT H  &kp K           &kp W        &hm RSHFT N &hm RCTL E &hm RALT A &hm RGUI I
                            &kp C      &kp M      &kp P                                     &kp COMMA   &kp DOT    &kp SQT
-                                                 &lt misc ESC &lt nav SPACE   &lt num BSPC &lt func RET
+                                                 &lt misc TAB &lt nav SPACE   &lt num BSPC &lt func RET
             >;
         };
 
@@ -74,7 +74,7 @@
                &kp LBKT    &kp RBKT    &kp EQUAL   &kp MINUS    &kp SEMI       &trans    &trans       &trans      &trans      &trans
                &hm LGUI N1 &hm LALT N2 &hm LCTL N3 &hm LSHFT N4 &kp N5         &kp N6    &hm RSHFT N7 &hm RCTL N8 &hm RALT N9 &hm RGUI N0
                            &kp GRAVE   &kp BSLH    &kp FSLH                              &trans       &trans     &trans
-                                                   &trans       &kp TAB        &trans    &trans
+                                                   &trans       &kp ESC        &trans    &trans
             >;
         };
 
