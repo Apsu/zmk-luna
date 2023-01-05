@@ -52,7 +52,7 @@
             label = "Luna Base Layer";
             bindings = <
                 &kp W      &kp G      &kp D      &kp F        &kp B           &kp X        &kp L     &kp U      &kp O      &kp Y
-                &hm LGUI R &hm LALT S &hm LCTL T &hm H        &kp K           &kp J        &kp N     &hm LCTL E &hm LALT A &hm LGUI I
+                &hm LGUI R &hm LALT S &hm LCTL T &kp H        &kp K           &kp J        &kp N     &hm LCTL E &hm LALT A &hm LGUI I
                            &kp C      &kp M      &kp P                                     &kp COMMA &kp DOT    &kp SQT
                                                  &lt misc ESC &lt nav SPACE   &lt num BSPC &lt func LSHFT
             >;
