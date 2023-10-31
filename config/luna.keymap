@@ -51,10 +51,10 @@
         base_layer {
             label = "Luna Base Layer";
             bindings = <
-                &kp V      &kp C      &kp Y      &kp D        &kp B           &kp X        &kp L       &kp O      &kp U      &kp J
-                &hm LGUI R &hm LALT S &hm LCTL T &hm LSHFT H  &kp K           &kp W        &hm LSHFT N &hm LCTL E &hm LALT I &hm LGUI A
-                           &kp F      &kp G      &kp P                                     &kp M       &kp COMMA  &kp DOT
-                                                 &lt misc ESC &lt nav SPACE   &lt num BSPC &lt func SQT
+                &kp X      &kp C      &kp M      &kp P        &kp B           &kp J        &kp K       &kp U      &kp Y      &kp SQT
+                &hm LGUI N &hm LALT S &hm LCTL T &hm LSHFT H  &kp F           &kp W        &hm LSHFT R &hm LCTL A &hm LALT I &hm LGUI O
+                           &kp V      &kp G      &kp D                                     &kp L       &kp COMMA  &kp DOT
+                                                 &lt misc ESC &lt nav SPACE   &lt num E    &lt func BSPC
             >;
         };
 
