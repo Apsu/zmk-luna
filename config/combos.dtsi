@@ -9,7 +9,7 @@
 combos {
   compatible = "zmk,combos";
 
-  COMBO(    w, &kp COMMA,  0  1, base, 50)
+  COMBO(    w, &kp     W,  0  1, base, 50)
   COMBO(    p, &kp     P,  1  2, base, 50)
   COMBO(    b, &kp     B,  2  3, base, 50)
 
