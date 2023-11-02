@@ -22,6 +22,6 @@ combos {
   COMBO(    g, &kp     G, 11 12, base, 50)
   COMBO(    k, &kp     K, 12 13, base, 50)
   COMBO(    j, &kp     J, 13 16, base, 50)
-  COMBO(    x, &kp     X, 16 17, base, 50)
-  COMBO(    w, &kp     W, 17 18, base, 50)
+  COMBO(    w, &kp     W, 16 17, base, 50)
+  COMBO(    x, &kp     X, 17 18, base, 50)
 };
