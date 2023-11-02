@@ -51,30 +51,30 @@
         base_layer {
             label = "Luna Base Layer";
             bindings = <
-                &hm LGUI R &hm LALT S &hm LCTL T &hm LSHFT H  &none           &none        &hm LSHFT N &hm LCTL A &hm LALT I &hm LGUI O
-                &kp V      &kp C      &kp D      &kp M        &none           &none        &kp L       &kp U      &kp Y      &kp SQT
-                           &none      &none      &none                                     &none       &none      &none
-                                                 &lt misc ESC &lt nav SPACE   &lt num E    &lt func BSPC
+                &hm LGUI R &hm LALT S &hm LCTL T &hm LSHFT H  &none           &none     &hm LSHFT N &hm LCTL A &hm LALT I &hm LGUI O
+                &kp V      &kp C      &kp D      &kp M        &none           &none     &kp L       &kp U      &kp Y      &kp SQT
+                           &none      &none      &none                                  &none       &none      &none
+                                                 &lt misc ESC &lt nav SPACE   &lt num E &lt func BSPC
             >;
         };
 
         nav_layer {
             label = "Navigation and Shortcuts";
             bindings = <
-               &kp LA(UP) &kp LA(DOWN) &kp LC(LS(TAB)) &kp LC(TAB)      &trans         &kp INS &kp HOME   &kp UP     &kp END      &kp PG_UP
-               &kp LGUI   &kp LALT     &kp LCTL        &kp LSHIFT       &caps_word     &kp DEL &kp LEFT   &kp DOWN   &kp RIGHT    &kp PG_DN
-                          &trans       &kp LA(LS(UP))  &kp LA(LS(DOWN))                        &kp C_PREV &kp C_PLAY &kp C_NEXT
-                                                       &trans           &trans         &kp RET &trans
+               &kp LGUI   &kp LALT     &kp LCTL         &kp LSHIFT        &none   &none   &kp LEFT &kp DOWN &kp UP    &kp RIGHT
+               &kp LA(UP) &kp LA(DOWN) &kp LG(LS(LBKT)) &kp LG(LS(RBKT))  &none   &none   &kp HOME &kp END  &kp PG_DN &kp PG_UP
+                          &none        &none            &none                             &none    &none    &none
+                                                 &trans &trans                    &kp RET &kp TAB
             >;
         };
 
         num_layer {
             label = "Numbers and Symbols";
             bindings = <
-               &kp LBKT    &kp RBKT    &kp EQUAL   &kp MINUS    &kp SEMI       &trans    &trans       &trans      &trans      &trans
-               &hm LGUI N1 &hm LALT N2 &hm LCTL N3 &hm LSHFT N4 &kp N5         &kp N6    &hm LSHFT N7 &hm LCTL N8 &hm LALT N9 &hm LGUI N0
-                           &kp GRAVE   &kp BSLH    &kp FSLH                              &trans       &trans     &trans
-                                                   &trans       &kp TAB        &trans    &trans
+               &hm LGUI N1 &hm LALT N2 &hm LCTL N3 &hm LSHFT N4 &none         &none  &hm LSHFT N5 &hm LCTL N6 &hm LALT N7 &hm LGUI N8
+               &kp LBKT    &kp RBKT    &kp EQUAL   &kp MINUS    &none         &none  &kp SEMI     &kp FSLH    &kp N9      &kp N0
+                           &none       &none       &none                             &none        &none       &none
+                                                   &kp GRAVE    &kp BSLH      &trans &trans
             >;
         };
 
