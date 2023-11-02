@@ -9,6 +9,17 @@
 combos {
   compatible = "zmk,combos";
 
-  COMBO(q, &kp Q, 2 3, base, 50)
-  COMBO(z, &kp Z, 6 7, base, 50)
+  COMBO(comma, &kp COMMA,  0  1, base, 50)
+  COMBO(    f, &kp     F,  1  2, base, 50)
+  COMBO(    b, &kp     B,  2  3, base, 50)
+  COMBO(    p, &kp     P,  3  4, base, 50)
+  COMBO(    z, &kp     Z,  4  5, base, 50)
+  COMBO(    q, &kp     Q,  5  6, base, 50)
+  COMBO(  dot, &kp   DOT,  6  7, base, 50)
+
+  COMBO(    g, &kp     G, 10 11, base, 50)
+  COMBO(    k, &kp     K, 11 12, base, 50)
+  COMBO(    j, &kp     J, 12 13, base, 50)
+  COMBO(    x, &kp     X, 13 14, base, 50)
+  COMBO(    w, &kp     W, 14 15, base, 50)
 };
