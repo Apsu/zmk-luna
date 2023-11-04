@@ -61,10 +61,10 @@
         nav_layer {
             label = "Navigation and Shortcuts";
             bindings = <
-               &kp LGUI   &kp LALT     &kp LCTL         &kp LSHIFT        &none   &none   &kp LEFT &kp DOWN &kp UP    &kp RIGHT
-               &kp LA(UP) &kp LA(DOWN) &kp LG(LS(LBKT)) &kp LG(LS(RBKT))  &none   &none   &kp HOME &kp END  &kp PG_DN &kp PG_UP
-                          &none        &none            &none                             &none    &none    &none
-                                                 &trans &trans                    &kp RET &kp TAB
+               &kp LGUI   &kp LALT     &kp LCTL    &kp LSHIFT      &none   &none   &kp LEFT &kp DOWN &kp UP    &kp RIGHT
+               &kp LA(UP) &kp LA(DOWN) &kp LC(TAB) &kp LC(LS(TAB)) &none   &none   &kp HOME &kp END  &kp PG_DN &kp PG_UP
+                          &none        &none       &none                           &none    &none    &none
+                                                   &trans          &trans  &kp RET &kp TAB
             >;
         };
 
@@ -85,8 +85,7 @@
                 &trans      &trans &trans &trans &trans        &bt BT_CLR    &bt BT_SEL 1     &bt BT_SEL 2      &bt BT_SEL 3      &bt BT_SEL 4
                             &trans &trans &trans                             &ext_power EP_ON &ext_power EP_OFF &ext_power EP_TOG
                                           &trans &trans        &trans        &trans
-            >;
-        };
+            >;        };
 
        func_layer {
             label = "Function Keys";
