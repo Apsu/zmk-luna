@@ -8,8 +8,8 @@
 
 combos {
   compatible = "zmk,combos";
-  COMBO( boot, &bootloader, 0 4, base, 50)
-  COMBO( boot, &bootloader, 5 9, base, 50)
+  COMBO(bootl, &bootloader, 0 4, base, 50)
+  COMBO(bootr, &bootloader, 5 9, base, 50)
 
   COMBO(    j, &kp     J, 10 11, base, 50)
   COMBO(    x, &kp     X, 10 12, base, 50)
