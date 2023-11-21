@@ -17,7 +17,3 @@ config ZMK_SPLIT
 	default y
 
 endif
-
-config CONFIG_ZMK_COMBO_MAX_COMBOS_PER_KEY
-	int "Maximum number of combos per key"
-	default 50
