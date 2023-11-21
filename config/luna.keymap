@@ -54,7 +54,7 @@
                 &kp N1 &kp N2   &kp N3   &kp N4   &kp N5      &kp N6    &kp N7   &kp N8   &kp N9 &kp N0
                 &kp N  &kp S    &kp T    &kp H    &kp GRAVE   &kp BSLH  &kp A    &kp E    &kp I  &kp O
                        &sk LGUI &sk LALT &sk LCTL                       &sk LCTL &sk LALT &sk LGUI
-                                         &kp ESC  &kp SPACE   &kp LSHFT &kp BSPC
+                                         &kp ESC  &kp SPACE   &sk LSHFT &kp BSPC
             >;
         };
 
