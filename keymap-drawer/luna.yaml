@@ -44,10 +44,10 @@ layers:
   - UP
   - END
   - PG UP
-  - LGUI
-  - LALT
-  - LCTL
-  - LSHIFT
+  - {t: LGUI, h: sticky}
+  - {t: LALT, h: sticky}
+  - {t: LCTL, h: sticky}
+  - {t: LSHIFT, h: sticky}
   - '&caps_word'
   - DEL
   - LEFT
@@ -97,13 +97,13 @@ layers:
   - {type: held}
 combos:
 - p: [10, 11]
-  k: J
+  k: M
   l: [Base]
 - p: [10, 12]
-  k: X
+  k: L
   l: [Base]
 - p: [10, 13]
-  k: W
+  k: R
   l: [Base]
 - p: [10, 16]
   k: '-'
@@ -118,55 +118,55 @@ combos:
   k: ']'
   l: [Base]
 - p: [11, 12]
-  k: M
-  l: [Base]
-- p: [11, 13]
   k: C
   l: [Base]
-- p: [11, 16]
+- p: [11, 13]
   k: V
   l: [Base]
+- p: [11, 16]
+  k: W
+  l: [Base]
 - p: [11, 17]
-  k: K
+  k: J
   l: [Base]
 - p: [11, 18]
-  k: Z
+  k: Y
   l: [Base]
 - p: [11, 19]
-  k: ;
+  k: X
   l: [Base]
 - p: [12, 13]
   k: D
   l: [Base]
 - p: [12, 16]
-  k: B
-  l: [Base]
-- p: [12, 17]
-  k: G
-  l: [Base]
-- p: [12, 18]
-  k: Q
-  l: [Base]
-- p: [12, 19]
-  k: '"'
-  l: [Base]
-- p: [13, 16]
   k: F
   l: [Base]
-- p: [13, 17]
+- p: [12, 17]
+  k: K
+  l: [Base]
+- p: [12, 18]
   k: P
   l: [Base]
-- p: [13, 18]
-  k: Y
+- p: [12, 19]
+  k: G
   l: [Base]
-- p: [13, 19]
+- p: [13, 16]
   k: ''''
   l: [Base]
+- p: [13, 17]
+  k: ;
+  l: [Base]
+- p: [13, 18]
+  k: B
+  l: [Base]
+- p: [13, 19]
+  k: '&key_repeat'
+  l: [Base]
 - p: [16, 17]
-  k: R
+  k: Q
   l: [Base]
 - p: [16, 18]
-  k: L
+  k: Z
   l: [Base]
 - p: [16, 19]
   k: ','
