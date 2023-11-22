@@ -3,36 +3,36 @@ layout:
     ortho_layout: {split: true, rows: 3, columns: 5, thumbs: 2, drop_pinky: true, drop_inner: true}
 layers:
   Base:
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
-  - N
-  - S
-  - T
-  - H
-  - '`'
-  - \
-  - A
-  - E
-  - I
-  - O
-  - {t: LGUI, h: sticky}
-  - {t: LALT, h: sticky}
-  - {t: LCTL, h: sticky}
-  - {t: LCTL, h: sticky}
-  - {t: LALT, h: sticky}
-  - {t: LGUI, h: sticky}
-  - {t: Navigation, h: sticky}
-  - SPACE
-  - {t: LSHFT, h: sticky}
-  - {t: Miscellaneous, h: sticky}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - L
+  - C
+  - D
+  - R
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - U
+  - Q
+  - Y
+  - ','
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {type: held}
+  - {t: ▽, type: trans}
   Navigation:
   - LA(UP)
   - LA(DOWN)
@@ -60,9 +60,9 @@ layers:
   - PREV
   - PLAY
   - NEXT
-  - {type: held}
+  - {t: Miscellaneous, h: sticky, type: held}
   - {t: ▽, type: trans}
-  - BSPC
+  - TAB
   - RET
   Miscellaneous:
   - {t: ▽, type: trans}
@@ -91,92 +91,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ESC
-  - TAB
-  - {t: ▽, type: trans}
   - {type: held}
-combos:
-- p: [10, 11]
-  k: M
-  l: [Base]
-- p: [10, 12]
-  k: L
-  l: [Base]
-- p: [10, 13]
-  k: R
-  l: [Base]
-- p: [10, 16]
-  k: '-'
-  l: [Base]
-- p: [10, 17]
-  k: '='
-  l: [Base]
-- p: [10, 18]
-  k: '['
-  l: [Base]
-- p: [10, 19]
-  k: ']'
-  l: [Base]
-- p: [11, 12]
-  k: C
-  l: [Base]
-- p: [11, 13]
-  k: V
-  l: [Base]
-- p: [11, 16]
-  k: W
-  l: [Base]
-- p: [11, 17]
-  k: J
-  l: [Base]
-- p: [11, 18]
-  k: Y
-  l: [Base]
-- p: [11, 19]
-  k: X
-  l: [Base]
-- p: [12, 13]
-  k: D
-  l: [Base]
-- p: [12, 16]
-  k: F
-  l: [Base]
-- p: [12, 17]
-  k: K
-  l: [Base]
-- p: [12, 18]
-  k: P
-  l: [Base]
-- p: [12, 19]
-  k: G
-  l: [Base]
-- p: [13, 16]
-  k: ''''
-  l: [Base]
-- p: [13, 17]
-  k: ;
-  l: [Base]
-- p: [13, 18]
-  k: B
-  l: [Base]
-- p: [13, 19]
-  k: '&key_repeat'
-  l: [Base]
-- p: [16, 17]
-  k: Q
-  l: [Base]
-- p: [16, 18]
-  k: Z
-  l: [Base]
-- p: [16, 19]
-  k: ','
-  l: [Base]
-- p: [17, 18]
-  k: U
-  l: [Base]
-- p: [17, 19]
-  k: .
-  l: [Base]
-- p: [18, 19]
-  k: /
-  l: [Base]
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
