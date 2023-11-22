@@ -46,7 +46,7 @@
         };
         
         lower_layer {
-            label = "Base";
+            label = "Lower";
             bindings = <
                 &trans &trans &trans &trans &trans   &trans &trans &trans &trans &trans 
                 &kp V  &kp F  &kp G  &kp M  &trans   &trans &kp K  &kp Z  &kp J  &kp DOT
@@ -56,7 +56,7 @@
         };
 
         upper_layer {
-            label = "Base";
+            label = "Upper";
             bindings = <
                 &trans &trans &trans &trans &trans       &trans &trans &trans &trans &trans 
                 &kp L  &kp C  &kp D  &kp R  &trans       &trans &kp U  &kp Q  &kp Y  &kp COMMA
@@ -66,7 +66,7 @@
         };
         
         bottom_layer {
-            label = "Base";
+            label = "Bottom";
             bindings = <
                 &trans &trans &trans &trans &trans   &trans &trans  &trans   &trans   &trans 
                 &none  &kp W  &kp P  &kp B  &trans   &trans &kp SQT &kp SEMI &kp FSLH &none
