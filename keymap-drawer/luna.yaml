@@ -44,10 +44,10 @@ layers:
   - UP
   - END
   - PG UP
-  - LA(LS(UP))
-  - LA(LS(DOWN))
-  - LC(PG UP)
-  - LC(PG DN)
+  - LGUI
+  - LALT
+  - LCTL
+  - LSHIFT
   - '&caps_word'
   - DEL
   - LEFT
@@ -55,14 +55,14 @@ layers:
   - RIGHT
   - PG DN
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LA(LS(UP))
+  - LA(LS(DOWN))
   - PREV
   - PLAY
   - NEXT
   - {type: held}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - BSPC
   - RET
   Miscellaneous:
   - {t: ▽, type: trans}
@@ -179,7 +179,4 @@ combos:
   l: [Base]
 - p: [18, 19]
   k: /
-  l: [Base]
-- p: [27, 28]
-  k: BSPC
   l: [Base]
