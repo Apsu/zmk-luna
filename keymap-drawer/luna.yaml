@@ -31,8 +31,8 @@ layers:
   - '?'
   - {t: Navigation, h: sticky}
   - SPACE
-  - {t: LSHFT, h: sticky}
   - BSPC
+  - RET
   Navigation:
   - LA(UP)
   - LA(DOWN)
@@ -63,7 +63,7 @@ layers:
   - {t: Miscellaneous, h: sticky, type: held}
   - {t: ▽, type: trans}
   - TAB
-  - RET
+  - {t: ▽, type: trans}
   Miscellaneous:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
