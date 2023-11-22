@@ -8,8 +8,6 @@
 
 combos {
   compatible = "zmk,combos";
-  COMBO(bootl, &bootloader, 0 4, base, 50)
-  COMBO(bootr, &bootloader, 5 9, base, 50)
 
   COMBO(    j, &kp     J, 10 11, base, 50)
   COMBO(    x, &kp     X, 10 12, base, 50)
@@ -24,13 +22,13 @@ combos {
   COMBO(    v, &kp     V, 11 16, base, 50)
   COMBO(    k, &kp     K, 11 17, base, 50)
   COMBO(    z, &kp     Z, 11 18, base, 50)
-  COMBO(grave, &kp GRAVE, 11 19, base, 50)
+  COMBO( semi, &kp  SEMI, 11 19, base, 50)
 
   COMBO(    d, &kp     D, 12 13, base, 50)
   COMBO(    b, &kp     B, 12 16, base, 50)
   COMBO(    g, &kp     G, 12 17, base, 50)
   COMBO(    q, &kp     Q, 12 18, base, 50)
-  COMBO( semi, &kp  SEMI, 12 19, base, 50)
+  COMBO(  dqt, &kp   DQT, 12 19, base, 50)
 
   COMBO(    f, &kp     F, 13 16, base, 50)
   COMBO(    p, &kp     P, 13 17, base, 50)
@@ -39,13 +37,12 @@ combos {
 
   COMBO(    r, &kp     R, 16 17, base, 50)
   COMBO(    l, &kp     L, 16 18, base, 50)
-  COMBO( fslh, &kp  FSLH, 16 19, base, 50)
+  COMBO(comma, &kp COMMA, 16 19, base, 50)
 
   COMBO(    u, &kp     U, 17 18, base, 50)
-  COMBO(comma, &kp COMMA, 17 19, base, 50)
+  COMBO(  dot, &kp   DOT, 17 19, base, 50)
 
-  COMBO(  dot, &kp   DOT, 18 19, base, 50)
+  COMBO( fslh, &kp  FSLH, 18 19, base, 50)
 
-  COMBO(  tab, &kp   TAB, 26 27, base, 50)
-  COMBO(  ret, &kp   RET, 28 29, base, 50)
+  COMBO( bspc, &kp  BSPC, 27 28, base, 50)
 };

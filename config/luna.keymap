@@ -11,6 +11,8 @@
 #include <dt-bindings/zmk/outputs.h>
 
 #define base 0
+#define nav  1
+#define misc 2
 
 &caps_word {
     continue-list = <UNDERSCORE MINUS>;
@@ -33,12 +35,32 @@
         compatible = "zmk,keymap";
 
         base_layer {
-            label = "Luna Base Layer";
+            label = "Base";
             bindings = <
                 &kp N1 &kp N2   &kp N3   &kp N4   &kp N5      &kp N6    &kp N7   &kp N8   &kp N9 &kp N0
                 &kp N  &kp S    &kp T    &kp H    &kp GRAVE   &kp BSLH  &kp A    &kp E    &kp I  &kp O
                        &sk LGUI &sk LALT &sk LCTL                       &sk LCTL &sk LALT &sk LGUI
-                                         &kp ESC  &kp SPACE   &sk LSHFT &kp BSPC
+                                         &sl nav  &kp SPACE   &sk LSHFT &sl misc
+            >;
+        };
+
+        nav_layer {
+            label = "Navigation";
+            bindings = <
+               &kp LA(UP)     &kp LA(DOWN)     &kp LC(LS(TAB)) &kp LC(TAB)   &trans         &kp INS &kp HOME   &kp UP     &kp END    &kp PG_UP
+               &kp LA(LS(UP)) &kp LA(LS(DOWN)) &kp LC(PG_UP)   &kp LC(PG_DN) &caps_word     &kp DEL &kp LEFT   &kp DOWN   &kp RIGHT  &kp PG_DN
+                              &trans           &trans          &trans                               &kp C_PREV &kp C_PLAY &kp C_NEXT
+                                               &trans          &trans                       &trans  &kp RET
+            >;
+        };
+
+        misc_layer {
+            label = "Miscellaneous";
+            bindings = <
+                &trans &trans &trans &trans &trans        &trans     &out OUT_USB &out OUT_BLE &out OUT_TOG &trans
+                &trans &trans &trans &trans &trans        &bt BT_CLR &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4
+                       &trans &trans &trans                          &trans       &trans       &trans
+                                     &kp ESC &kp TAB      &trans     &trans
             >;
         };
     };
