@@ -50,7 +50,7 @@
                &kp LA(UP) &kp LA(DOWN) &kp LC(LS(TAB)) &kp LC(TAB)      &trans       &kp INS &kp HOME   &kp UP     &kp END      &kp PG_UP
                &sk LGUI   &sk LALT     &sk LCTL        &sk LSHIFT       &caps_word   &kp DEL &kp LEFT   &kp DOWN   &kp RIGHT    &kp PG_DN
                           &kp ESC      &kp LA(LS(UP))  &kp LA(LS(DOWN))                      &kp C_PREV &kp C_PLAY &kp C_NEXT
-                                                       &sl misc         &trans       &kp TAB &trans
+                                                       &sl misc         &trans       &trans  &kp TAB
             >;
         };
 
