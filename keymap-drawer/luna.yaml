@@ -23,12 +23,12 @@ layers:
   - E
   - I
   - O
-  - '['
-  - '-'
+  - '!'
+  - ;
   - ','
   - .
-  - '='
-  - ']'
+  - /
+  - '?'
   - {t: Lower, h: sticky}
   - {t: SPACE, h: Navigation}
   - {t: BSPC, h: Miscellaneous}
@@ -53,7 +53,7 @@ layers:
   - K
   - Z
   - J
-  - .
+  - '"'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -84,7 +84,7 @@ layers:
   - U
   - Q
   - Y
-  - ','
+  - ''''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -106,16 +106,16 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ''
+  - '['
   - W
   - P
   - B
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ''''
-  - ;
-  - /
-  - ''
+  - '-'
+  - '='
+  - ':'
+  - ']'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
