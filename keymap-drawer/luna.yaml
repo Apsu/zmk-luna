@@ -62,8 +62,8 @@ layers:
   - NEXT
   - {t: Miscellaneous, h: sticky, type: held}
   - {t: ▽, type: trans}
-  - TAB
   - {t: ▽, type: trans}
+  - TAB
   Miscellaneous:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
