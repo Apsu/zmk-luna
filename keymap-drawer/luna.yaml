@@ -3,6 +3,99 @@ layout:
     ortho_layout: {split: true, rows: 3, columns: 5, thumbs: 2, drop_pinky: true, drop_inner: true}
 layers:
   Base:
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - N
+  - S
+  - T
+  - H
+  - '`'
+  - \
+  - A
+  - E
+  - I
+  - O
+  - '['
+  - '-'
+  - ','
+  - .
+  - '='
+  - ']'
+  - {t: Lower, h: sticky}
+  - {t: SPACE, h: Navigation}
+  - {t: BSPC, h: Miscellaneous}
+  - {t: Upper, h: sticky}
+  Lower:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - V
+  - F
+  - G
+  - M
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - K
+  - Z
+  - J
+  - .
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: Bottom, h: sticky}
+  Upper:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - L
+  - C
+  - D
+  - R
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - U
+  - Q
+  - Y
+  - ','
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: Bottom, h: sticky}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  Bottom:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
