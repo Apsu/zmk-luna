@@ -48,7 +48,7 @@
             label = "Navigation";
             bindings = <
                &kp LA(UP) &kp LA(DOWN) &kp LC(LS(TAB)) &kp LC(TAB)      &trans         &kp INS  &kp HOME   &kp UP     &kp END      &kp PG_UP
-               &kp LGUI   &kp LALT     &kp LCTL        &kp LSHIFT       &caps_word     &kp DEL  &kp LEFT   &kp DOWN   &kp RIGHT    &kp PG_DN
+               &sk LGUI   &sk LALT     &sk LCTL        &sk LSHIFT       &caps_word     &kp DEL  &kp LEFT   &kp DOWN   &kp RIGHT    &kp PG_DN
                           &trans       &kp LA(LS(UP))  &kp LA(LS(DOWN))                         &kp C_PREV &kp C_PLAY &kp C_NEXT
                                                        &trans           &trans         &kp BSPC &kp RET
             >;
