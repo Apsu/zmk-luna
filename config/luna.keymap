@@ -38,10 +38,10 @@
         base_layer {
             label = "Base";
             bindings = <
-                &kp N1 &kp N2   &kp N3   &kp N4   &kp N5            &kp N6    &kp N7   &kp N8   &kp N9 &kp N0
-                &kp N  &kp S    &kp T    &kp H    &kp GRAVE         &kp BSLH  &kp A    &kp E    &kp I  &kp O
-                       &sk LGUI &sk LALT &sk LCTL                             &sk LCTL &sk LALT &sk LGUI
-                                         &sl nav  &lt lower SPACE   &lt upper BSPC &sk LSHFT
+                &kp N1 &kp N2   &kp N3    &kp N4    &kp N5          &kp N6    &kp N7  &kp N8    &kp N9 &kp N0
+                &kp N  &kp S    &kp T     &kp H     &kp GRAVE       &kp BSLH  &kp A   &kp E     &kp I  &kp O
+                       &kp LBKT &kp MINUS &kp COMMA                           &kp DOT &kp EQUAL &kp RBKT
+                                         &sl lower &lt nav SPACE   &lt misc BSPC &sl upper
             >;
         };
         
@@ -51,26 +51,26 @@
                 &trans &trans &trans &trans &trans   &trans &trans &trans &trans &trans 
                 &kp V  &kp F  &kp G  &kp M  &trans   &trans &kp K  &kp Z  &kp J  &kp DOT
                        &trans &trans &trans                 &trans &trans &trans
-                                     &trans &trans   &lt bottom BSPC &trans
+                                     &trans &trans   &trans &sl bottom
             >;
         };
 
         upper_layer {
             label = "Base";
             bindings = <
-                &trans &trans &trans &trans &trans             &trans &trans &trans &trans &trans 
-                &kp L  &kp C  &kp D  &kp R  &trans             &trans &kp U  &kp Q  &kp Y  &kp COMMA
-                       &trans &trans &trans                           &trans &trans &trans
-                                     &trans &lt bottom SPACE   &trans &trans
+                &trans &trans &trans &trans &trans       &trans &trans &trans &trans &trans 
+                &kp L  &kp C  &kp D  &kp R  &trans       &trans &kp U  &kp Q  &kp Y  &kp COMMA
+                       &trans &trans &trans                     &trans &trans &trans
+                                     &sl bottom &trans   &trans &trans
             >;
         };
         
         bottom_layer {
             label = "Base";
             bindings = <
-                &trans &trans &trans &trans &trans   &trans &trans &trans &trans &trans 
-                &kp L  &kp C  &kp D  &kp R  &trans   &trans &kp U  &kp Q  &kp Y  &kp COMMA
-                       &trans &trans &trans                 &trans &trans &trans
+                &trans &trans &trans &trans &trans   &trans &trans  &trans   &trans   &trans 
+                &none  &kp W  &kp P  &kp B  &trans   &trans &kp SQT &kp SEMI &kp FSLH &none
+                       &trans &trans &trans                 &trans  &trans   &trans
                                      &trans &trans   &trans &trans
             >;
         };
@@ -80,8 +80,8 @@
             bindings = <
                &kp LA(UP) &kp LA(DOWN) &kp LC(LS(TAB)) &kp LC(TAB)      &trans       &kp INS &kp HOME   &kp UP     &kp END      &kp PG_UP
                &sk LGUI   &sk LALT     &sk LCTL        &sk LSHIFT       &caps_word   &kp DEL &kp LEFT   &kp DOWN   &kp RIGHT    &kp PG_DN
-                          &trans       &kp LA(LS(UP))  &kp LA(LS(DOWN))                      &kp C_PREV &kp C_PLAY &kp C_NEXT
-                                                       &sl misc         &trans       &kp TAB &kp RET
+                          &kp ESC      &kp LA(LS(UP))  &kp LA(LS(DOWN))                      &kp C_PREV &kp C_PLAY &kp C_NEXT
+                                                       &trans           &trans       &kp TAB &kp RET
             >;
         };
 
