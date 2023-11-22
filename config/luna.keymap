@@ -11,11 +11,8 @@
 #include <dt-bindings/zmk/outputs.h>
 
 #define base 0
-#define lower 1
-#define upper 2
-#define bottom 3
-#define nav  4
-#define misc 5
+#define nav  1
+#define misc 2
 
 &caps_word {
     continue-list = <UNDERSCORE MINUS>;
@@ -47,36 +44,6 @@
             >;
         };
         
-        lower_layer {
-            label = "Lower";
-            bindings = <
-                &trans &trans &trans &trans &trans   &trans &trans &trans &trans &trans 
-                &kp V  &kp F  &kp G  &kp M  &trans   &trans &kp K  &kp Z  &kp J  &kp DQT
-                       &trans &trans &trans                 &trans &trans &trans
-                                     &trans &trans   &trans &sl bottom
-            >;
-        };
-
-        upper_layer {
-            label = "Upper";
-            bindings = <
-                &trans &trans &trans &trans &trans       &trans &trans &trans &trans &trans 
-                &kp L  &kp C  &kp D  &kp R  &trans       &trans &kp U  &kp Q  &kp Y  &kp SQT
-                       &trans &trans &trans                     &trans &trans &trans
-                                     &sl bottom &trans   &trans &trans
-            >;
-        };
-        
-        bottom_layer {
-            label = "Bottom";
-            bindings = <
-                &trans   &trans &trans &trans &trans   &trans &trans   &trans   &trans    &trans 
-                &kp LBKT &kp W  &kp P  &kp B  &trans   &trans &kp MINUS &kp EQUAL &kp COLON &kp RBKT
-                         &trans &trans &trans                 &trans   &trans   &trans
-                                       &trans &trans   &trans &trans
-            >;
-        };
-
         nav_layer {
             label = "Navigation";
             bindings = <
