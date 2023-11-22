@@ -29,10 +29,10 @@ layers:
   - .
   - /
   - '?'
-  - {t: Lower, h: sticky}
-  - {t: SPACE, h: Navigation}
-  - {t: BSPC, h: Miscellaneous}
-  - {t: Upper, h: sticky}
+  - {t: Navigation, h: sticky}
+  - SPACE
+  - {t: LSHFT, h: sticky}
+  - BSPC
   Lower:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -60,7 +60,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: Bottom, h: sticky}
@@ -94,7 +94,7 @@ layers:
   - {t: Bottom, h: sticky}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   Bottom:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -122,7 +122,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
@@ -153,8 +153,8 @@ layers:
   - PREV
   - PLAY
   - NEXT
+  - {t: Miscellaneous, h: sticky, type: held}
   - {t: ▽, type: trans}
-  - {type: held}
   - TAB
   - RET
   Miscellaneous:
@@ -184,7 +184,80 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+combos:
+- p: [27, 10]
+  k: V
+  l: [Base]
+- p: [27, 11]
+  k: F
+  l: [Base]
+- p: [27, 12]
+  k: G
+  l: [Base]
+- p: [27, 13]
+  k: M
+  l: [Base]
+- p: [27, 16]
+  k: K
+  l: [Base]
+- p: [27, 17]
+  k: Z
+  l: [Base]
+- p: [27, 18]
+  k: Z
+  l: [Base]
+- p: [27, 19]
+  k: '"'
+  l: [Base]
+- p: [28, 10]
+  k: L
+  l: [Base]
+- p: [28, 11]
+  k: C
+  l: [Base]
+- p: [28, 12]
+  k: D
+  l: [Base]
+- p: [28, 13]
+  k: R
+  l: [Base]
+- p: [28, 16]
+  k: U
+  l: [Base]
+- p: [28, 17]
+  k: Q
+  l: [Base]
+- p: [28, 18]
+  k: Y
+  l: [Base]
+- p: [28, 19]
+  k: ''''
+  l: [Base]
+- p: [27, 28, 10]
+  k: '['
+  l: [Base]
+- p: [27, 28, 11]
+  k: W
+  l: [Base]
+- p: [27, 28, 12]
+  k: P
+  l: [Base]
+- p: [27, 28, 13]
+  k: B
+  l: [Base]
+- p: [27, 28, 16]
+  k: '-'
+  l: [Base]
+- p: [27, 28, 17]
+  k: '='
+  l: [Base]
+- p: [27, 28, 18]
+  k: ':'
+  l: [Base]
+- p: [27, 28, 19]
+  k: ']'
+  l: [Base]
