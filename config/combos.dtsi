@@ -16,8 +16,8 @@ combos {
   COMBO(    m, &kp     M, 27 13, base, 50)
   COMBO(    k, &kp     K, 27 16, base, 50)
   COMBO(    z, &kp     Z, 27 17, base, 50)
-  COMBO(    j, &kp     Z, 27 18, base, 50)
-  COMBO(  dqt, &kp   DQT, 27 19, base, 50)
+  COMBO(    j, &kp     J, 27 18, base, 50)
+  COMBO(    x, &kp     X, 27 19, base, 50)
 
 // Upper (right thumb)
   COMBO(    l, &kp     L, 28 10, base, 50)
