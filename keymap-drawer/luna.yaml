@@ -115,10 +115,10 @@ combos:
   k: Z
   l: [Base]
 - p: [27, 18]
-  k: Z
+  k: J
   l: [Base]
 - p: [27, 19]
-  k: '"'
+  k: X
   l: [Base]
 - p: [28, 10]
   k: L
