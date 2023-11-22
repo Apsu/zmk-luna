@@ -47,10 +47,10 @@
         nav_layer {
             label = "Navigation";
             bindings = <
-               &kp LA(UP)     &kp LA(DOWN)     &kp LC(LS(TAB)) &kp LC(TAB)   &trans         &kp INS &kp HOME   &kp UP     &kp END    &kp PG_UP
-               &kp LA(LS(UP)) &kp LA(LS(DOWN)) &kp LC(PG_UP)   &kp LC(PG_DN) &caps_word     &kp DEL &kp LEFT   &kp DOWN   &kp RIGHT  &kp PG_DN
-                              &trans           &trans          &trans                               &kp C_PREV &kp C_PLAY &kp C_NEXT
-                                               &trans          &trans                       &trans  &kp RET
+               &kp LA(UP) &kp LA(DOWN) &kp LC(LS(TAB)) &kp LC(TAB)      &trans         &kp INS  &kp HOME   &kp UP     &kp END      &kp PG_UP
+               &kp LGUI   &kp LALT     &kp LCTL        &kp LSHIFT       &caps_word     &kp DEL  &kp LEFT   &kp DOWN   &kp RIGHT    &kp PG_DN
+                          &trans       &kp LA(LS(UP))  &kp LA(LS(DOWN))                         &kp C_PREV &kp C_PLAY &kp C_NEXT
+                                                       &trans           &trans         &kp BSPC &kp RET
             >;
         };
 

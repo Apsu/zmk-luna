@@ -43,6 +43,4 @@ combos {
   COMBO(  dot, &kp   DOT, 17 19, base, 50)
 
   COMBO( fslh, &kp  FSLH, 18 19, base, 50)
-
-  COMBO( bspc, &kp  BSPC, 27 28, base, 50)
 };
