@@ -38,9 +38,9 @@
         base_layer {
             label = "Base";
             bindings = <
-                &kp N1 &kp N2   &kp N3    &kp N4    &kp N5          &kp N6    &kp N7  &kp N8    &kp N9 &kp N0
-                &kp N  &kp S    &kp T     &kp H     &kp GRAVE       &kp BSLH  &kp A   &kp E     &kp I  &kp O
-                       &kp LBKT &kp MINUS &kp COMMA                           &kp DOT &kp EQUAL &kp RBKT
+                &kp N1 &kp N2   &kp N3   &kp N4    &kp N5          &kp N6    &kp N7  &kp N8   &kp N9 &kp N0
+                &kp N  &kp S    &kp T    &kp H     &kp GRAVE       &kp BSLH  &kp A   &kp E    &kp I  &kp O
+                       &kp EXCL &kp SEMI &kp COMMA                           &kp DOT &kp FSLH &kp QMARK
                                          &sl lower &lt nav SPACE   &lt misc BSPC &sl upper
             >;
         };
@@ -49,7 +49,7 @@
             label = "Lower";
             bindings = <
                 &trans &trans &trans &trans &trans   &trans &trans &trans &trans &trans 
-                &kp V  &kp F  &kp G  &kp M  &trans   &trans &kp K  &kp Z  &kp J  &kp DOT
+                &kp V  &kp F  &kp G  &kp M  &trans   &trans &kp K  &kp Z  &kp J  &kp DQT
                        &trans &trans &trans                 &trans &trans &trans
                                      &trans &trans   &trans &sl bottom
             >;
@@ -59,7 +59,7 @@
             label = "Upper";
             bindings = <
                 &trans &trans &trans &trans &trans       &trans &trans &trans &trans &trans 
-                &kp L  &kp C  &kp D  &kp R  &trans       &trans &kp U  &kp Q  &kp Y  &kp COMMA
+                &kp L  &kp C  &kp D  &kp R  &trans       &trans &kp U  &kp Q  &kp Y  &kp SQT
                        &trans &trans &trans                     &trans &trans &trans
                                      &sl bottom &trans   &trans &trans
             >;
@@ -68,10 +68,10 @@
         bottom_layer {
             label = "Bottom";
             bindings = <
-                &trans &trans &trans &trans &trans   &trans &trans  &trans   &trans   &trans 
-                &none  &kp W  &kp P  &kp B  &trans   &trans &kp SQT &kp SEMI &kp FSLH &none
-                       &trans &trans &trans                 &trans  &trans   &trans
-                                     &trans &trans   &trans &trans
+                &trans   &trans &trans &trans &trans   &trans &trans   &trans   &trans    &trans 
+                &kp LBKT &kp W  &kp P  &kp B  &trans   &trans &kp MINUS &kp EQUAL &kp COLON &kp RBKT
+                         &trans &trans &trans                 &trans   &trans   &trans
+                                       &trans &trans   &trans &trans
             >;
         };
 
