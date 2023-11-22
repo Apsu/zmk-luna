@@ -11,10 +11,6 @@
 #include <dt-bindings/zmk/outputs.h>
 
 #define base 0
-#define nav  1
-#define num  2
-#define misc 3
-#define func 4
 
 &caps_word {
     continue-list = <UNDERSCORE MINUS>;
@@ -33,18 +29,6 @@
 / {
     #include "combos.dtsi"
 
-    behaviors {
-        hm: homerow_mod {
-            compatible = "zmk,behavior-hold-tap";
-            label = "HOMEROW_MODS";
-            #binding-cells = <2>;
-            tapping-term-ms = <250>;
-            quick_tap_ms = <250>;
-            flavor = "tap-preferred";
-            bindings = <&kp>, <&kp>;
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
@@ -55,46 +39,6 @@
                 &kp N  &kp S    &kp T    &kp H    &kp GRAVE   &kp BSLH  &kp A    &kp E    &kp I  &kp O
                        &sk LGUI &sk LALT &sk LCTL                       &sk LCTL &sk LALT &sk LGUI
                                          &kp ESC  &kp SPACE   &sk LSHFT &kp BSPC
-            >;
-        };
-
-        nav_layer {
-            label = "Navigation and Shortcuts";
-            bindings = <
-               &kp LGUI   &kp LALT     &kp LCTL    &kp LSHIFT      &none   &none   &kp LEFT &kp DOWN &kp UP    &kp RIGHT
-               &kp LA(UP) &kp LA(DOWN) &kp LC(TAB) &kp LC(LS(TAB)) &none   &none   &kp HOME &kp END  &kp PG_DN &kp PG_UP
-                          &none        &none       &none                           &none    &none    &none
-                                                   &trans          &trans  &kp RET &kp TAB
-            >;
-        };
-
-        num_layer {
-            label = "Numbers and Symbols";
-            bindings = <
-               &hm LGUI N1 &hm LALT N2 &hm LCTL N3 &hm LSHFT N4 &none         &none  &hm LSHFT N5 &hm LCTL N6 &hm LALT N7 &hm LGUI N8
-               &kp LBKT    &kp RBKT    &kp EQUAL   &kp MINUS    &none         &none  &kp SEMI     &kp FSLH    &kp N9      &kp N0
-                           &none       &none       &none                             &none        &none       &none
-                                                   &kp GRAVE    &kp BSLH      &trans &trans
-            >;
-        };
-
-        misc_layer {
-            label = "Miscellaneous";
-            bindings = <
-                &bootloader &trans &trans &trans &trans        &trans        &out OUT_USB     &out OUT_BLE      &out OUT_TOG      &trans
-                &trans      &trans &trans &trans &trans        &bt BT_CLR    &bt BT_SEL 1     &bt BT_SEL 2      &bt BT_SEL 3      &bt BT_SEL 4
-                            &trans &trans &trans                             &ext_power EP_ON &ext_power EP_OFF &ext_power EP_TOG
-                                          &trans &trans        &trans        &trans
-            >;        };
-
-       func_layer {
-            label = "Function Keys";
-
-            bindings = <
-               &trans      &trans        &trans       &trans       &trans      &trans &trans       &trans       &trans      &bootloader
-               &hm LGUI F1 &hm LALT F2   &hm LCTL F3  &hm LSHFT F4 &kp F5      &kp F6 &hm LSHFT F7 &hm LCTL F8  &hm LALT F9 &hm LGUI F10
-                           &kp C_BRI_DEC &kp C_BRI_UP &kp F11                         &kp F12      &kp C_VOL_DN &kp C_VOL_UP
-                                                      &trans       &trans      &trans &trans
             >;
         };
     };
