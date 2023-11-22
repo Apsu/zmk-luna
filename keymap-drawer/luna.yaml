@@ -13,17 +13,16 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - L
-  - C
-  - D
-  - R
+  - ''
+  - W
+  - P
+  - B
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - U
-  - Q
-  - Y
-  - ','
-  - {t: ▽, type: trans}
+  - ''''
+  - ;
+  - /
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -31,8 +30,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
   Navigation:
   - LA(UP)
   - LA(DOWN)
@@ -54,14 +54,14 @@ layers:
   - DOWN
   - RIGHT
   - PG DN
-  - {t: ▽, type: trans}
+  - ESC
   - LA(LS(UP))
   - LA(LS(DOWN))
   - PREV
   - PLAY
   - NEXT
-  - {t: Miscellaneous, h: sticky, type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - TAB
   - RET
   Miscellaneous:
@@ -91,7 +91,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
