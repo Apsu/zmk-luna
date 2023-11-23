@@ -31,6 +31,18 @@
 / {
     #include "combos.dtsi"
 
+    behaviors {
+        hm: homerow_mod {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HOMEROW_MODS";
+            #binding-cells = <2>;
+            tapping-term-ms = <250>;
+            quick_tap_ms = <250>;
+            flavor = "tap-preferred";
+            bindings = <&kp>, <&kp>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -40,7 +52,7 @@
                 &kp N1 &kp N2   &kp N3   &kp N4    &kp N5          &kp N6    &kp N7  &kp N8   &kp N9 &kp N0
                 &kp N  &kp S    &kp T    &kp H     &kp GRAVE       &kp BSLH  &kp A   &kp E    &kp I  &kp O
                        &kp EXCL &kp SEMI &kp COMMA                           &kp DOT &kp FSLH &kp QMARK
-                                         &sl nav   &kp SPACE       &kp BSPC  &kp RET
+                                         &sl nav   &kp SPACE       &sk LSHFT &kp BSPC
             >;
         };
         
@@ -50,7 +62,7 @@
                &kp LA(UP) &kp LA(DOWN) &kp LC(LS(TAB)) &kp LC(TAB)      &trans       &kp INS &kp HOME   &kp UP     &kp END      &kp PG_UP
                &sk LGUI   &sk LALT     &sk LCTL        &sk LSHIFT       &caps_word   &kp DEL &kp LEFT   &kp DOWN   &kp RIGHT    &kp PG_DN
                           &kp ESC      &kp LA(LS(UP))  &kp LA(LS(DOWN))                      &kp C_PREV &kp C_PLAY &kp C_NEXT
-                                                       &sl misc         &trans       &trans  &kp TAB
+                                                       &sl misc         &trans       &kp TAB &kp RET
             >;
         };
 
@@ -60,7 +72,7 @@
                 &trans &trans &trans &trans &trans        &trans     &out OUT_USB &out OUT_BLE &out OUT_TOG &trans
                 &trans &trans &trans &trans &trans        &bt BT_CLR &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4
                        &trans &trans &trans                          &trans       &trans       &trans
-                                     &trans &trans                   &trans     &trans
+                                     &trans &trans                   &trans       &trans
             >;
         };
     };
