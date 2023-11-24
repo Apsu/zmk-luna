@@ -10,29 +10,33 @@ combos {
   compatible = "zmk,combos";
 
 /*
-  G   A   C          C   A   G
+Esc                          Bsp
+w   c   g   d      l   u   o   y
+Tab     ,   .          ;   ' Ret
 r   s   t   h      n   e   a   i
     v   p   b      x   z   q
-      ,   '          ;   .
+            Spc Shft
 */
 
 // Mods
-  COMBO( lgui, &sk  LGUI, 10 11, base, 50)
-  COMBO( lalt, &sk  LALT, 11 12, base, 50)
-  COMBO( lctl, &sk  LCTL, 12 13, base, 50)
-  COMBO( rctl, &sk  RCTL, 16 17, base, 50)
-  COMBO( ralt, &sk  RALT, 17 18, base, 50)
-  COMBO( rgui, &sk  RGUI, 18 19, base, 50)
+  COMBO( lgui, &sk  LGUI, 10 27, base, 50)
+  COMBO( lalt, &sk  LALT, 11 27, base, 50)
+  COMBO( lctl, &sk  LCTL, 12 27, base, 50)
+  COMBO(lshft, &sk LSHFT, 13 27, base, 50)
+  COMBO(rshft, &sk RSHFT, 16 27, base, 50)
+  COMBO( rctl, &sk  RCTL, 17 27, base, 50)
+  COMBO( ralt, &sk  RALT, 18 27, base, 50)
+  COMBO( rgui, &sk  RGUI, 19 27, base, 50)
 
 // Punct
-  COMBO(comma, &kp COMMA, 20 21, base, 50)
-  COMBO(  sqt, &kp   SQT, 21 22, base, 50)
-  COMBO( semi, &kp  SEMI, 23 24, base, 50)
-  COMBO(  dot, &kp   DOT, 24 25, base, 50)
+  jOMBO(comma, &kp COMMA, 12 28, base, 50)
+  COMBO(  dot, &kp   DOT, 13 28, base, 50)
+  COMBO(  sqt, &kp   SQT, 18 28, base, 50)
+  COMBO( semi, &kp  SEMI, 19 28, base, 50)
 
 // Other
-  COMBO(  tab, &kp   TAB, 26 28, base, 50)
-  COMBO(  esc, &kp   ESC, 26 29, base, 50)
-  COMBO( bspc, &kp  BSPC, 27 28, base, 50)
-  COMBO(  ret, &kp   RET, 27 29, base, 50)
+  COMBO(  esc, &kp   ESC,  0 27, base, 50)
+  COMBO(  tab, &kp   TAB, 10 27, base, 50)
+  COMBO( bspc, &kp  BSPC,  9 27, base, 50)
+  COMBO(  ret, &kp   RET, 19 27, base, 50)
 };
