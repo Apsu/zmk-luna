@@ -19,24 +19,22 @@ r   s   t   h      n   e   a   i
 */
 
 // Mods
-  COMBO( lgui, &sk  LGUI, 11 27, base, 50)
-  COMBO( lalt, &sk  LALT, 12 27, base, 50)
-  COMBO( lctl, &sk  LCTL, 13 27, base, 50)
-//  COMBO(lshft, &sk LSHFT, 13 27, base, 50)
-// COMBO(rshft, &sk RSHFT, 16 27, base, 50)
-  COMBO( rctl, &sk  RCTL, 16 27, base, 50)
-  COMBO( ralt, &sk  RALT, 17 27, base, 50)
-  COMBO( rgui, &sk  RGUI, 18 27, base, 50)
+//  COMBO( lgui, &sk  LGUI, 11 27, base, 50)
+//  COMBO( lalt, &sk  LALT, 12 27, base, 50)
+//  COMBO( lctl, &sk  LCTL, 13 27, base, 50)
+//  COMBO( rctl, &sk  RCTL, 16 27, base, 50)
+//  COMBO( ralt, &sk  RALT, 17 27, base, 50)
+//  COMBO( rgui, &sk  RGUI, 18 27, base, 50)
 
 // Punct
-  COMBO(comma, &kp COMMA, 13 28, base, 50)
-  COMBO(  dot, &kp   DOT, 16 28, base, 50)
-  COMBO( semi, &kp  SEMI, 17 28, base, 50)
-  COMBO(  sqt, &kp   SQT, 18 28, base, 50)
+//  COMBO(comma, &kp COMMA, 13 28, base, 50)
+//  COMBO(  dot, &kp   DOT, 16 28, base, 50)
+//  COMBO( semi, &kp  SEMI, 17 28, base, 50)
+//  COMBO(  sqt, &kp   SQT, 18 28, base, 50)
 
 // Other
-  COMBO(  esc, &kp   ESC,  0 27, base, 50)
-  COMBO(  tab, &kp   TAB, 10 27, base, 50)
-  COMBO( bspc, &kp  BSPC,  9 27, base, 50)
-  COMBO(  ret, &kp   RET, 19 27, base, 50)
+//  COMBO(  esc, &kp   ESC,  0 27, base, 50)
+//  COMBO(  tab, &kp   TAB, 10 27, base, 50)
+//  COMBO( bspc, &kp  BSPC,  9 27, base, 50)
+//  COMBO(  ret, &kp   RET, 19 27, base, 50)
 };
