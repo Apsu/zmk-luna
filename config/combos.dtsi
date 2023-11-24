@@ -9,6 +9,30 @@
 combos {
   compatible = "zmk,combos";
 
-  COMBO(q, &kp Q, 2 3, base, 50)
-  COMBO(z, &kp Z, 6 7, base, 50)
+/*
+  G   A   C          C   A   G
+r   s   t   h      n   e   a   i
+    v   p   b      x   z   q
+      ,   '          ;   .
+*/
+
+// Mods
+  COMBO( lgui, &sk  LGUI, 10 11, base, 50)
+  COMBO( lalt, &sk  LALT, 11 12, base, 50)
+  COMBO( lctl, &sk  LCTL, 12 13, base, 50)
+  COMBO( rctl, &sk  RCTL, 16 17, base, 50)
+  COMBO( ralt, &sk  RALT, 17 18, base, 50)
+  COMBO( rgui, &sk  RGUI, 18 19, base, 50)
+
+// Punct
+  COMBO(comma, &kp COMMA, 20 21, base, 50)
+  COMBO(  sqt, &kp   SQT, 21 22, base, 50)
+  COMBO( semi, &kp  SEMI, 23 24, base, 50)
+  COMBO(  dot, &kp   DOT, 24 25, base, 50)
+
+// Other
+  COMBO(  tab, &kp   TAB, 26 27, base, 50)
+  COMBO(  esc, &kp   ESC, 26 29, base, 50)
+  COMBO( bspc, &kp  BSPC, 27 28, base, 50)
+  COMBO(  ret, &kp   RET, 28 29, base, 50)
 };
