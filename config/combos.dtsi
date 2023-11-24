@@ -31,8 +31,8 @@ r   s   t   h      n   e   a   i
   COMBO(  dot, &kp   DOT, 24 25, base, 50)
 
 // Other
-  COMBO(  tab, &kp   TAB, 26 27, base, 50)
+  COMBO(  tab, &kp   TAB, 26 28, base, 50)
   COMBO(  esc, &kp   ESC, 26 29, base, 50)
   COMBO( bspc, &kp  BSPC, 27 28, base, 50)
-  COMBO(  ret, &kp   RET, 28 29, base, 50)
+  COMBO(  ret, &kp   RET, 27 29, base, 50)
 };
