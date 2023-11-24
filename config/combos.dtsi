@@ -19,14 +19,14 @@ r   s   t   h      n   e   a   i
 */
 
 // Mods
-  COMBO( lgui, &sk  LGUI, 10 27, base, 50)
-  COMBO( lalt, &sk  LALT, 11 27, base, 50)
-  COMBO( lctl, &sk  LCTL, 12 27, base, 50)
-  COMBO(lshft, &sk LSHFT, 13 27, base, 50)
-  COMBO(rshft, &sk RSHFT, 16 27, base, 50)
-  COMBO( rctl, &sk  RCTL, 17 27, base, 50)
-  COMBO( ralt, &sk  RALT, 18 27, base, 50)
-  COMBO( rgui, &sk  RGUI, 19 27, base, 50)
+  COMBO( lgui, &sk  LGUI, 11 27, base, 50)
+  COMBO( lalt, &sk  LALT, 12 27, base, 50)
+  COMBO( lctl, &sk  LCTL, 13 27, base, 50)
+//  COMBO(lshft, &sk LSHFT, 13 27, base, 50)
+// COMBO(rshft, &sk RSHFT, 16 27, base, 50)
+  COMBO( rctl, &sk  RCTL, 16 27, base, 50)
+  COMBO( ralt, &sk  RALT, 17 27, base, 50)
+  COMBO( rgui, &sk  RGUI, 18 27, base, 50)
 
 // Punct
   COMBO(comma, &kp COMMA, 13 28, base, 50)
