@@ -13,7 +13,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - N
+  - R
   - S
   - T
   - H
@@ -47,23 +47,23 @@ layers:
   - {t: LGUI, h: sticky}
   - {t: LALT, h: sticky}
   - {t: LCTL, h: sticky}
-  - {t: LSHIFT, h: sticky}
   - '&caps_word'
+  - {t: ▽, type: trans}
   - DEL
   - LEFT
   - DOWN
   - RIGHT
   - PG DN
-  - ESC
+  - {t: RALT, h: sticky}
   - LA(LS(UP))
   - LA(LS(DOWN))
   - PREV
   - PLAY
   - NEXT
-  - {t: Miscellaneous, h: sticky, type: held}
+  - {type: held}
   - {t: ▽, type: trans}
-  - TAB
-  - RET
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   Miscellaneous:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -91,77 +91,122 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
-- p: [27, 10]
-  k: V
-  l: [Base]
-- p: [27, 11]
-  k: F
-  l: [Base]
-- p: [27, 12]
-  k: G
-  l: [Base]
-- p: [27, 13]
-  k: M
-  l: [Base]
-- p: [27, 14]
-  k: '['
-  l: [Base]
-- p: [27, 15]
-  k: ']'
-  l: [Base]
-- p: [27, 16]
-  k: K
-  l: [Base]
-- p: [27, 17]
-  k: Z
-  l: [Base]
-- p: [27, 18]
-  k: J
-  l: [Base]
-- p: [27, 19]
-  k: X
-  l: [Base]
-- p: [28, 10]
-  k: L
-  l: [Base]
-- p: [28, 11]
+- p: [10, 11]
   k: C
   l: [Base]
-- p: [28, 12]
-  k: D
-  l: [Base]
-- p: [28, 13]
-  k: R
-  l: [Base]
-- p: [28, 14]
-  k: '-'
-  l: [Base]
-- p: [28, 15]
-  k: '='
-  l: [Base]
-- p: [28, 16]
-  k: U
-  l: [Base]
-- p: [28, 17]
-  k: Q
-  l: [Base]
-- p: [28, 18]
-  k: Y
-  l: [Base]
-- p: [28, 19]
-  k: ''''
-  l: [Base]
-- p: [10, 11]
+- p: [10, 12]
   k: W
   l: [Base]
+- p: [10, 13]
+  k: N
+  l: [Base]
+- p: [10, 16]
+  k: '-'
+  l: [Base]
+- p: [10, 17]
+  k: '='
+  l: [Base]
+- p: [10, 18]
+  k: '['
+  l: [Base]
+- p: [10, 19]
+  k: ']'
+  l: [Base]
 - p: [11, 12]
-  k: P
+  k: D
+  l: [Base]
+- p: [11, 13]
+  k: L
+  l: [Base]
+- p: [11, 16]
+  k: Q
+  l: [Base]
+- p: [11, 17]
+  k: J
+  l: [Base]
+- p: [11, 18]
+  k: Y
+  l: [Base]
+- p: [11, 19]
+  k: X
   l: [Base]
 - p: [12, 13]
+  k: M
+  l: [Base]
+- p: [12, 16]
+  k: F
+  l: [Base]
+- p: [12, 17]
+  k: K
+  l: [Base]
+- p: [12, 18]
+  k: P
+  l: [Base]
+- p: [12, 19]
+  k: G
+  l: [Base]
+- p: [13, 16]
+  k: ''''
+  l: [Base]
+- p: [13, 17]
+  k: ;
+  l: [Base]
+- p: [13, 18]
   k: B
+  l: [Base]
+- p: [13, 19]
+  k: V
+  l: [Base]
+- p: [16, 17]
+  k: Z
+  l: [Base]
+- p: [16, 18]
+  k: '"'
+  l: [Base]
+- p: [16, 19]
+  k: ','
+  l: [Base]
+- p: [17, 18]
+  k: U
+  l: [Base]
+- p: [17, 19]
+  k: .
+  l: [Base]
+- p: [18, 19]
+  k: /
+  l: [Base]
+- p: [11, 27]
+  k: {t: LGUI, h: sticky}
+  l: [Base]
+- p: [12, 27]
+  k: {t: LALT, h: sticky}
+  l: [Base]
+- p: [13, 27]
+  k: {t: LCTL, h: sticky}
+  l: [Base]
+- p: [16, 27]
+  k: {t: RCTL, h: sticky}
+  l: [Base]
+- p: [17, 27]
+  k: {t: RALT, h: sticky}
+  l: [Base]
+- p: [18, 27]
+  k: {t: RGUI, h: sticky}
+  l: [Base]
+- p: [0, 27]
+  k: ESC
+  l: [Base]
+- p: [10, 27]
+  k: TAB
+  l: [Base]
+- p: [9, 27]
+  k: BSPC
+  l: [Base]
+- p: [19, 27]
+  k: RET
   l: [Base]
