@@ -20,3 +20,4 @@ jobs:
       output_folder: "keymap-drawer"            # path to save produced SVG and keymap YAML files
       parse_args: ""  # map of extra args to pass to `keymap parse`, e.g. "corne:'-l Def Lwr Rse' cradio:''"
       draw_args: ""   # map of extra args to pass to `keymap draw`, e.g. "corne:'-k corne_rotated' cradio:'-k paroxysm'"
+      install_branch: "main"
