@@ -46,16 +46,16 @@ combos {
   COMBO( fslh, &kp  FSLH, 18 19, base, 50)
 
 // Mods
-  COMBO( lgui, &sk  LGUI, 11 27, base, 50)
-  COMBO( lalt, &sk  LALT, 12 27, base, 50)
-  COMBO( lctl, &sk  LCTL, 13 27, base, 50)
-  COMBO( rctl, &sk  RCTL, 16 27, base, 50)
-  COMBO( ralt, &sk  RALT, 17 27, base, 50)
-  COMBO( rgui, &sk  RGUI, 18 27, base, 50)
+//  COMBO( lgui, &sk  LGUI, 11 27, base, 50)
+//  COMBO( lalt, &sk  LALT, 12 27, base, 50)
+//  COMBO( lctl, &sk  LCTL, 13 27, base, 50)
+//  COMBO( rctl, &sk  RCTL, 16 27, base, 50)
+//  COMBO( ralt, &sk  RALT, 17 27, base, 50)
+//  COMBO( rgui, &sk  RGUI, 18 27, base, 50)
 
 // Other
-  COMBO(  esc, &kp   ESC,  0 27, base, 50)
-  COMBO(  tab, &kp   TAB, 10 27, base, 50)
-  COMBO( bspc, &kp  BSPC,  9 27, base, 50)
-  COMBO(  ret, &kp   RET, 19 27, base, 50)
+//  COMBO(  esc, &kp   ESC,  0 27, base, 50)
+//  COMBO(  tab, &kp   TAB, 10 27, base, 50)
+//  COMBO( bspc, &kp  BSPC,  9 27, base, 50)
+//  COMBO(  ret, &kp   RET, 19 27, base, 50)
 };
