@@ -122,22 +122,22 @@ combos:
   k: L
   l: [Base]
 - p: [11, 16]
-  k: Q
+  k: F
   l: [Base]
 - p: [11, 17]
   k: J
   l: [Base]
 - p: [11, 18]
-  k: Y
+  k: B
   l: [Base]
 - p: [11, 19]
-  k: X
+  k: V
   l: [Base]
 - p: [12, 13]
   k: M
   l: [Base]
 - p: [12, 16]
-  k: F
+  k: Q
   l: [Base]
 - p: [12, 17]
   k: K
@@ -155,10 +155,10 @@ combos:
   k: ;
   l: [Base]
 - p: [13, 18]
-  k: B
+  k: Y
   l: [Base]
 - p: [13, 19]
-  k: V
+  k: X
   l: [Base]
 - p: [16, 17]
   k: Z
