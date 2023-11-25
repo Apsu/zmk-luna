@@ -1,6 +1,4 @@
-layout:
-  default_transform:
-    ortho_layout: {split: true, rows: 3, columns: 5, thumbs: 2, drop_pinky: true, drop_inner: true}
+layout: {qmk_keyboard: berylline}
 layers:
   Base:
   - '1'
@@ -47,14 +45,14 @@ layers:
   - {t: LGUI, h: sticky}
   - {t: LALT, h: sticky}
   - {t: LCTL, h: sticky}
+  - {t: LSHFT, h: sticky}
   - '&caps_word'
-  - {t: ▽, type: trans}
   - DEL
   - LEFT
   - DOWN
   - RIGHT
   - PG DN
-  - {t: RALT, h: sticky}
+  - ESC
   - LA(LS(UP))
   - LA(LS(DOWN))
   - PREV
@@ -62,8 +60,8 @@ layers:
   - NEXT
   - {type: held}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - TAB
+  - RET
   Miscellaneous:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -179,34 +177,4 @@ combos:
   l: [Base]
 - p: [18, 19]
   k: /
-  l: [Base]
-- p: [11, 27]
-  k: {t: LGUI, h: sticky}
-  l: [Base]
-- p: [12, 27]
-  k: {t: LALT, h: sticky}
-  l: [Base]
-- p: [13, 27]
-  k: {t: LCTL, h: sticky}
-  l: [Base]
-- p: [16, 27]
-  k: {t: RCTL, h: sticky}
-  l: [Base]
-- p: [17, 27]
-  k: {t: RALT, h: sticky}
-  l: [Base]
-- p: [18, 27]
-  k: {t: RGUI, h: sticky}
-  l: [Base]
-- p: [0, 27]
-  k: ESC
-  l: [Base]
-- p: [10, 27]
-  k: TAB
-  l: [Base]
-- p: [9, 27]
-  k: BSPC
-  l: [Base]
-- p: [19, 27]
-  k: RET
   l: [Base]
