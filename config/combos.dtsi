@@ -4,7 +4,7 @@
     key-positions = <KEYPOS>; \
     layers = <LAYERS>; \
     timeout-ms = <MS>; \
-    slow-release = true; \
+    slow-release = "true"; \
   };
 
 combos {
