@@ -39,9 +39,9 @@
         base_layer {
             label = "Luna Base Layer";
             bindings = <
-                &kp W &kp C &kp G &kp D   &kp B         &kp X    &kp L &kp U &kp O &kp Y
-                &kp R &kp S &kp T &kp H   &kp K         &kp J    &kp N &kp E &kp A &kp I
-                      &kp V &kp P &kp F                          &kp M &kp Z &kp Q
+                &kp V &kp W &kp F &kp P   &kp B         &kp X    &kp M &kp COMMA &kp DOT &kp SQT
+                &kp R &kp S &kp T &kp H   &kp K         &kp J    &kp N &kp A     &kp I   &kp O
+                      &kp C &kp G &kp D                          &kp L &kp U     &kp Y
                                   &sl nav &kp SPACE     &kp BSPC &sl num
             >;
         };
@@ -59,9 +59,9 @@
         num_layer {
             label = "Numbers and Symbols";
             bindings = <
-               &kp LBKT &kp RBKT  &kp EQUAL &kp MINUS &trans      &trans &kp COMMA &kp DOT &kp SQT &kp SEMI
-               &kp N1   &kp N2    &kp N3    &kp N4    &kp N5      &kp N6 &kp N7    &kp N8  &kp N9  &kp N0
-                        &kp GRAVE &kp BSLH  &kp FSLH                     &trans    &trans  &trans
+               &kp LBKT &kp RBKT  &kp EQUAL &kp MINUS &trans      &trans &trans &trans &trans &trans
+               &kp N1   &kp N2    &kp N3    &kp N4    &kp N5      &kp N6 &kp N7 &kp N8 &kp N9 &kp N0
+                        &kp GRAVE &kp BSLH  &kp FSLH                     &trans &trans &trans
                                             &kp ESC   &kp TAB     &trans &sl func
             >;
         };
