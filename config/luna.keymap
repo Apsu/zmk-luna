@@ -39,20 +39,20 @@
         base_layer {
             label = "Luna Base Layer";
             bindings = <
-                &kp V &kp W &kp F &kp P   &kp B         &kp X    &kp M &kp COMMA &kp DOT &kp SQT
-                &kp R &kp S &kp T &kp H   &kp K         &kp J    &kp N &kp A     &kp I   &kp O
-                      &kp C &kp G &kp D                          &kp L &kp U     &kp Y
-                                  &sl nav &kp SPACE     &kp BSPC &sl num
+                &kp V &kp W &kp F &kp P   &kp B         &kp X &kp M &kp COMMA &kp DOT &kp SQT
+                &kp R &kp S &kp T &kp H   &kp K         &kp J &kp N &kp A     &kp I   &kp O
+                      &kp C &kp G &kp D                       &kp L &kp U     &kp Y
+                                  &sl nav &kp SPACE     &kp E &sl num
             >;
         };
 
         nav_layer {
             label = "Navigation and Shortcuts";
             bindings = <
-               &kp LA(UP) &kp LA(DOWN) &kp LC(LS(TAB)) &kp LC(TAB)      &trans         &kp INS &kp HOME &kp UP   &kp END   &kp PG_UP
-               &sk LGUI   &sk LALT     &sk LCTL        &sk LSHFT        &caps_word     &kp DEL &kp LEFT &kp DOWN &kp RIGHT &kp PG_DN
-                          &sk RALT     &kp LA(LS(UP))  &kp LA(LS(DOWN))                        &trans   &trans   &trans
-                                                       &sl misc         &trans         &trans  &kp RET
+               &kp LA(UP) &kp LA(DOWN) &kp LC(LS(TAB)) &kp LC(TAB)      &trans         &kp INS  &kp HOME &kp UP   &kp END   &kp PG_UP
+               &sk LGUI   &sk LALT     &sk LCTL        &sk LSHFT        &caps_word     &kp DEL  &kp LEFT &kp DOWN &kp RIGHT &kp PG_DN
+                          &sk RALT     &kp LA(LS(UP))  &kp LA(LS(DOWN))                         &trans   &trans   &trans
+                                                       &sl misc         &trans         &kp BSPC &kp RET
             >;
         };
 
