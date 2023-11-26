@@ -39,20 +39,20 @@
         base_layer {
             label = "Luna Base Layer";
             bindings = <
-                &kp W &kp C &kp G &kp D   &kp B         &kp B   &kp L &kp U &kp O &kp Y
-                &kp R &kp S &kp T &kp H   &kp K         &kp J   &kp N &kp E &kp A &kp I
-                      &kp V &kp P &kp F                         &kp M &kp Z &kp Q
-                                  &sl nav &kp SPACE     &kp SQT &sl num
+                &kp W &kp C &kp G &kp D    &kp B         &kp B   &kp L &kp U &kp O &kp Y
+                &kp R &kp S &kp T &kp H    &kp K         &kp J   &kp N &kp E &kp A &kp I
+                      &kp V &kp P &kp F                          &kp M &kp Z &kp Q
+                                  &tog nav &kp SPACE     &kp SQT &tog num
             >;
         };
 
         nav_layer {
             label = "Navigation and Shortcuts";
             bindings = <
-               &kp LA(UP) &kp LA(DOWN) &kp LC(LS(TAB)) &kp LC(TAB)      &trans         &kp INS  &kp HOME &kp UP   &kp END   &kp PG_UP
-               &sk LGUI   &sk LALT     &sk LCTL        &sk LSHFT        &caps_word     &trans   &kp DEL &kp LEFT &kp DOWN &kp RIGHT &kp PG_DN
-                          &sk RALT     &kp LA(LS(UP))  &kp LA(LS(DOWN))                         &trans  &trans   &trans
-                                                       &tog nav         &trans         &kp BSPC &kp RET
+               &kp LA(UP) &kp LA(DOWN) &kp LC(LS(TAB)) &kp LC(TAB)      &trans         &trans   &kp INS  &kp HOME &kp UP   &kp END   &kp PG_UP
+               &sk LGUI   &sk LALT     &sk LCTL        &sk LSHFT        &caps_word     &trans   &kp DEL  &kp LEFT &kp DOWN &kp RIGHT &kp PG_DN
+                          &sk RALT     &kp LA(LS(UP))  &kp LA(LS(DOWN))                         &trans   &trans   &trans
+                                                       &trans           &trans         &kp BSPC &kp RET
             >;
         };
 
@@ -62,7 +62,7 @@
                &kp LBKT &kp RBKT  &kp EQUAL &kp MINUS &trans      &trans &kp COMMA &kp DOT &kp SQT &kp SEMI
                &kp N1   &kp N2    &kp N3    &kp N4    &kp N5      &kp N6 &kp N7    &kp N8  &kp N9  &kp N0
                         &kp GRAVE &kp BSLH  &kp FSLH                     &kp COMMA &kp DOT &kp SEMI
-                                            &kp ESC   &kp TAB     &trans &tog num
+                                            &kp ESC   &kp TAB     &trans &trans
             >;
         };
 
