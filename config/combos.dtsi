@@ -29,8 +29,8 @@ r   s   t   h      n   e   a   i
 // Punct
 //  COMBO(comma, &kp COMMA, 13 28, base, 50)
 //  COMBO(  dot, &kp   DOT, 16 28, base, 50)
-//  COMBO( semi, &kp  SEMI, 17 28, base, 50)
-//  COMBO(  sqt, &kp   SQT, 18 28, base, 50)
+//  COMBO(  sqt, &kp   SQT, 17 28, base, 50)
+//  COMBO( semi, &kp  SEMI, 18 28, base, 50)
 
 // Other
 //  COMBO(  esc, &kp   ESC,  0 27, base, 50)
