@@ -1,0 +1,166 @@
+layout:
+  default_transform:
+    ortho_layout: {split: true, rows: 3, columns: 5, thumbs: 2, drop_pinky: true, drop_inner: true}
+layers:
+  Luna Base Layer:
+  - X
+  - W
+  - F
+  - P
+  - B
+  - J
+  - L
+  - U
+  - Y
+  - ;
+  - {t: A, h: LGUI}
+  - {t: R, h: LALT}
+  - {t: S, h: LCTL}
+  - {t: T, h: LSHFT}
+  - G
+  - M
+  - {t: N, h: LSHFT}
+  - {t: E, h: LCTL}
+  - {t: I, h: LALT}
+  - {t: O, h: LGUI}
+  - V
+  - C
+  - D
+  - H
+  - ','
+  - .
+  - {t: ESC, h: Miscellaneous}
+  - {t: SPACE, h: Navigation and Shortcuts}
+  - {t: BSPC, h: Numbers and Symbols}
+  - {t: '''', h: Function Keys}
+  Navigation and Shortcuts:
+  - LA(UP)
+  - LA(DOWN)
+  - LC(LS(TAB))
+  - LC(TAB)
+  - {t: ▽, type: trans}
+  - INS
+  - HOME
+  - UP
+  - END
+  - PG UP
+  - LGUI
+  - LALT
+  - LCTL
+  - LSHIFT
+  - '&caps_word'
+  - DEL
+  - LEFT
+  - DOWN
+  - RIGHT
+  - PG DN
+  - {t: ▽, type: trans}
+  - LA(LS(UP))
+  - LA(LS(DOWN))
+  - PREV
+  - PLAY
+  - NEXT
+  - {t: ▽, type: trans}
+  - {type: held}
+  - RET
+  - {t: ▽, type: trans}
+  Numbers and Symbols:
+  - '['
+  - ']'
+  - '='
+  - '-'
+  - ;
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: '1', h: LGUI}
+  - {t: '2', h: LALT}
+  - {t: '3', h: LCTL}
+  - {t: '4', h: LSHFT}
+  - '5'
+  - '6'
+  - {t: '7', h: LSHFT}
+  - {t: '8', h: LCTL}
+  - {t: '9', h: LALT}
+  - {t: '0', h: LGUI}
+  - '`'
+  - \
+  - /
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - TAB
+  - {type: held}
+  - {t: ▽, type: trans}
+  Miscellaneous:
+  - '&bootloader'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - OUT USB
+  - OUT BLE
+  - OUT TOG
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - BT CLR
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - EP ON
+  - EP OFF
+  - EP TOG
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  Function Keys:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&bootloader'
+  - {t: F1, h: LGUI}
+  - {t: F2, h: LALT}
+  - {t: F3, h: LCTL}
+  - {t: F4, h: LSHFT}
+  - F5
+  - F6
+  - {t: F7, h: LSHFT}
+  - {t: F8, h: LCTL}
+  - {t: F9, h: LALT}
+  - {t: F10, h: LGUI}
+  - BRI DEC
+  - BRI UP
+  - F11
+  - F12
+  - VOL DN
+  - VOL UP
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+combos:
+- p: [2, 3]
+  k: Q
+  l: [Luna Base Layer]
+- p: [6, 7]
+  k: Z
+  l: [Luna Base Layer]
