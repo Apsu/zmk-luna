@@ -87,10 +87,10 @@ layers:
   - {t: '0', h: LGUI}
   - '`'
   - \
-  - /
+  - ;
   - ','
   - .
-  - ;
+  - /
   - {t: ▽, type: trans}
   - TAB
   - {type: held}
