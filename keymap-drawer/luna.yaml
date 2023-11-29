@@ -27,8 +27,8 @@ layers:
   - F
   - G
   - M
-  - ','
-  - .
+  - Z
+  - Q
   - {t: ESC, h: Miscellaneous}
   - {t: SPACE, h: Navigation and Shortcuts}
   - {t: E, h: Numbers and Symbols}
@@ -54,7 +54,7 @@ layers:
   - DOWN
   - RIGHT
   - PG DN
-  - {t: ▽, type: trans}
+  - RALT
   - LA(LS(UP))
   - LA(LS(DOWN))
   - PREV
