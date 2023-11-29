@@ -3,36 +3,36 @@ layout:
     ortho_layout: {split: true, rows: 3, columns: 5, thumbs: 2, drop_pinky: true, drop_inner: true}
 layers:
   Luna Base Layer:
-  - J
-  - W
-  - F
-  - P
-  - B
   - K
+  - W
+  - C
+  - D
+  - B
+  - J
   - L
   - U
   - Y
-  - X
+  - ''''
   - {t: A, h: LGUI}
   - {t: R, h: LALT}
   - {t: S, h: LCTL}
   - {t: T, h: LSHFT}
-  - G
-  - M
+  - P
+  - X
   - {t: N, h: LSHFT}
-  - {t: E, h: LCTL}
+  - {t: H, h: LCTL}
   - {t: I, h: LALT}
   - {t: O, h: LGUI}
   - V
-  - C
-  - D
-  - H
-  - Z
-  - Q
+  - F
+  - G
+  - M
+  - ','
+  - .
   - {t: ESC, h: Miscellaneous}
   - {t: SPACE, h: Navigation and Shortcuts}
-  - {t: BSPC, h: Numbers and Symbols}
-  - {t: '''', h: Function Keys}
+  - {t: E, h: Numbers and Symbols}
+  - {t: BSPC, h: Function Keys}
   Navigation and Shortcuts:
   - LA(UP)
   - LA(DOWN)
